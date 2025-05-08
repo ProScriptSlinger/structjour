@@ -1,12 +1,12 @@
 ![pypi_downloads/month](https://img.shields.io/pypi/dm/structjour)
 
 # Structjour - A Structured Daily Journal for Day Traders of Stock Equities
-https://github.com/MikePia/structjour
+https://github.com/PRoScriptSlinger/structjour
 
 
 Structjour will import statements from DAS Trader Pro trading platform and Interactive Broker Statements. 
 
-I am very interested in all issues. Please inform me [here. (issues on github)](https://github.com/MikePia/structjour/issues). Uploaded to PyPi its initial pre-release Sept 28 '19.
+I am very interested in all issues. Please inform me [here. (issues on github)](https://github.com/PRoScriptSlinger/structjour/issues). Uploaded to PyPi its initial pre-release Sept 28 '19.
 First concerns are install and run errors. As the sole developer I am anxious to get users' and perspectives on all issues.
 
 Structjour currently reads DAS Trader Pro export files and Interactive Broker Statements
@@ -48,7 +48,7 @@ Go to file->file settings
 
   * Click Journal Directory and select the location to place your journal directory
   * Click on each of the next four buttons to set up defaults
-  * Disciplined Trader log (Disciplined.xlsx) is located in your install directory or can be found on [here on github](https://github.com/MikePia/structjour/raw/master/Disciplined.xlsx ). I recommend placing it in your Journal Directory. Then click on Discipline and navigate to the file
+  * Disciplined Trader log (Disciplined.xlsx) is located in your install directory or can be found on [here on github](https://github.com/PRoScriptSlinger/structjour/raw/master/Disciplined.xlsx ). I recommend placing it in your Journal Directory. Then click on Discipline and navigate to the file
    * The "structjour database" and "trades databse" will be sqlite databases. They will be filenames in your system. They can be the same file if you like. Click each of the buttons 'structjour db' and 'trades db' to select a sqlite db or to create a new one.
    * Create Dirs will create subdirectories in your Journal Directory. 
        * Make sure you have a valid directory in the Journal Directory edit box.
@@ -82,7 +82,7 @@ Briefly, to use ibapi you must:
       * fill in (or just note the values) for Socket port and client id
       * Place port and Client ID in the Structjour stockapi dialog -- one setting for live, one for paper
       * Click on Interactive Brokers (live) or IBPaper account
-  * Ask ([github issue](https://github.com/MikePia/structjour/issues)) if you have difficulty setting it up.
+  * Ask ([github issue](https://github.com/PRoScriptSlinger/structjour/issues)) if you have difficulty setting it up.
 
 ## How to open your trades in Structjour from DAS Trader Pro
    * Export your trades window from DAS Trader Pro into the folder for the correct date underneath your Journal Dir. 
